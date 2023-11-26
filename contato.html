@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="th.ico" rel="shortcut icon">
+            
+    <link href="Estilo.css" rel="stylesheet" >  
+    <title>Pizzaria Seu Pizza</title>  
+</head>
+<body>
+    <header>
+        <div class="logo_caixa">
+           <img src="logo.png" title="Pizzaria Seu Pizza" class="logo">
+           <nav>
+             <ul>
+               <li><a href ="index.html">Home</a></li>
+               <li><a href ="Cardapio.html">Cardapio</a></li>
+               <li><a href ="cadastro.html">Cadastro</a></li>
+              
+             </ul>
+           </nav>
+        </div>
+    </header>
+        <main>
+            <form name="FrmContato" method="get" action="mailto:test@email.com" target="_blank">
+                <fieldset>
+                    <legend>Dados pessoais</legend> <br>
+                    <label for="nomesobrenome">Nome e Sobrenome</label>
+                    <input type="text" id="nomesobrenome" name="" class="input-padrao" required>
+
+                    <label for="email">Email</label> <br>
+                    <input type="email" id="email" name="" class="input-padrao" required placeholder="seuemail@gmail.com">
+
+
+                    <label for="telefone">Telefone</label> <br>
+                    <input type="tel" id="telefone" name="" class="input-padrao" required placeholder="(XX) XXXX-XXXX">
+
+                    <label for="mensagem">Mensagem</label> <br>
+                    <textarea name="" id="mensagem" cols="70" rows="10" class="input-padrao"></textarea> <br>
+
+                    <label for="contato">Como prefere o nosso contato?
+                        <input type="radio" value="radio-email" name="Contato"> Email 
+                        <input type="radio" value="radio-telefone" name="Contato"> Telefone 
+                        <input type="radio" value="radio-whatsapp" name="Contato"> Whatsapp 
+                    </label>
+                </fieldset>
+            </form>  
+        </main>
+        <footer>
+            <img src="Imagemfinal2-removebg-preview.png" alt="Seu Pizza" class="logo_footer">
+            <p class="copyright">&copy; Todos os direitos reservados para seu Pizza</p>
+          </footer>
+</html>
+        
